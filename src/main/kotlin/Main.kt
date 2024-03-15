@@ -1,6 +1,10 @@
 package org.khip8emu
 
+import org.khip8emu.display.ScreenBuffer
+
 fun main() {
-    println("Hello World!")
+    val screenBuffer: ScreenBuffer = ScreenBuffer()
+
+    screenBuffer.printPixelValuesAsScreen()
 }
 
